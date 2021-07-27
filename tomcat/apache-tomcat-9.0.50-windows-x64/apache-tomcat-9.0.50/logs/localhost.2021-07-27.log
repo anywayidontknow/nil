@@ -1,0 +1,28 @@
+27-Jul-2021 10:15:14.425 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+27-Jul-2021 10:15:16.274 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Jul-2021 10:15:16.274 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Jul-2021 10:15:16.277 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@24f5e9e8')
+27-Jul-2021 10:17:39.468 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Jul-2021 10:17:39.468 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Jul-2021 10:17:50.884 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+27-Jul-2021 10:17:52.938 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Jul-2021 10:17:52.938 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Jul-2021 10:17:52.941 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4a45ca1c')
+27-Jul-2021 10:20:42.369 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+27-Jul-2021 10:20:44.229 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Jul-2021 10:20:44.229 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Jul-2021 10:20:44.233 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@54f9326c')
+27-Jul-2021 10:21:07.650 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Jul-2021 10:21:07.650 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Jul-2021 10:21:58.089 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+27-Jul-2021 10:21:59.906 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Jul-2021 10:21:59.906 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Jul-2021 10:21:59.909 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@337cb81d')
+27-Jul-2021 10:22:13.373 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Jul-2021 10:22:13.373 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Jul-2021 10:27:25.325 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+27-Jul-2021 10:27:27.254 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Jul-2021 10:27:27.254 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Jul-2021 10:27:27.257 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@8afce3')
+27-Jul-2021 10:30:40.633 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Jul-2021 10:30:40.634 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
