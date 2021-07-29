@@ -9,10 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
 	@RequestMapping("/home")
-    public String vue(Model model){
-    	System.out.println("test");
-    	model.addAttribute("message", "test");
+    public String home(){
         return "vue/index";
+    }
+	
+	@RequestMapping("/")
+    public String defualt(){
+		
+        return home();
     }
 	
 }

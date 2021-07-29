@@ -8,7 +8,8 @@
   <body>
     <div id="app">
 	    <!-- built files will be auto injected -->
-	{{ message }}
+		<p v-if="seen">{{ message }}</p>
+		<button v-on:click="onOffMessage">끄기/켜기</button>
 	</div>
   </body>
 </html>

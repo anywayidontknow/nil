@@ -10,7 +10,23 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   data: {
-	  message: 'test 1234!! [' + new Date() + ']'
+	  message: 'test 1234!! [' + new Date() + ']',
+	  seen: true
+  },
+  methods: {
+	onOffMessage: function () {
+		this.seen = this.seen == true ? false : true;
+	}
+  }
+  //router,
+  //components: { App },
+  //template: '<App/>'
+})
+
+new Vue({
+  el: '#app2',
+  data: {
+	  seen: false
   },
   //router,
   //components: { App },
