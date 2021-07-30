@@ -1,17 +1,20 @@
 <template>
-  <div id="App">
-    <router-view></router-view>
+  <div id="home">
+    <h1>Nil's Main Page</h1>
+    <img src="../assets/logo.png">
+    <p><router-link to="stone">Stone</router-link></p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Home',
+  components: {},
 }
 </script>
 
 <style>
-#App {
+#home {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

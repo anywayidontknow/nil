@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <title>nilvue</title>
   </head>
   <body>
-    <div id="app">
+    <div id="App">
 	    <!-- built files will be auto injected -->
-		<p v-if="seen">{{ message }}</p>
-		<button v-on:click="onOffMessage">끄기/켜기</button>
-	</div>
+	    <router-view></router-view>
+	  </div>
   </body>
 </html>

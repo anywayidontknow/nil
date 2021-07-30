@@ -1,22 +1,15 @@
 package com.nil;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.view.RedirectView;
 
-@Controller
-//@RequestMapping("/vue")
+@RestController
 public class MainController {
 
-	@RequestMapping("/home")
-    public String home(){
-        return "vue/index";
-    }
-	
-	@RequestMapping("/")
-    public String defualt(){
-		
-        return home();
-    }
-	
+	 @RequestMapping("/")
+   public RedirectView home(){
+       return new RedirectView("/home");
+       
+   }
 }

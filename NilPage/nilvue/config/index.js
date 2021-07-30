@@ -45,8 +45,7 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../../src/main/resources/templates/vue/index.html'),
-
+    index: path.resolve(__dirname, '../../src/main/resources/static/static/vue/index.html'),
     // Paths
     assetsRoot: path.resolve(__dirname, '../../src/main/resources/static/'),
     assetsSubDirectory: 'static',

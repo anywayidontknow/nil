@@ -1,34 +1,39 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import App from './App'
-import router from './router'
+import axios from 'axios'
+import App from './App.vue'
+
+import router from "./router/router";
+
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  router,
+  render: h => h(App),
+  
+  //components: { App },
+  //template: '<App/>'
+  
+}).$mount('#App')
+
+/*
+var stoneSelect = new Vue({
+  el: '#stoneSelect',
   data: {
-	  message: 'test 1234!! [' + new Date() + ']',
-	  seen: true
+    test: ''
   },
   methods: {
-	onOffMessage: function () {
-		this.seen = this.seen == true ? false : true;
-	}
+    sendStoneType: function () {
+//
+    axios.get('http://localhost:8080/stone/getData')
+    .then(function(response) {
+      console.log(response);
+    });
+    }
   }
-  //router,
-  //components: { App },
-  //template: '<App/>'
-})
 
-new Vue({
-  el: '#app2',
-  data: {
-	  seen: false
-  },
-  //router,
-  //components: { App },
-  //template: '<App/>'
 })
+*/
